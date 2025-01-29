@@ -2,11 +2,11 @@
 
 :root {
     /* White and Blue */
-    --primary: hsl(210, 15%, 25%);  /* Deep Navy Blue */
-    --secondary: hsl(204, 30%, 58%);  /* Medium Sky Blue */
-    --accent: hsl(200, 50%, 60%);  /* Soft Steel Blue */
-    --text: hsl(0, 0%, 20%);  /* Charcoal Black */
-    --background: hsl(0, 0%, 100%);  /* Pure White */
+    --wb-primary: hsl(210, 15%, 25%);  /* Deep Navy Blue */
+    --wb-secondary: hsl(204, 30%, 58%);  /* Medium Sky Blue */
+    --wb-accent: hsl(200, 50%, 60%);  /* Soft Steel Blue */
+    --wb-text: hsl(0, 0%, 20%);  /* Charcoal Black */
+    --wb-background: hsl(0, 0%, 100%);  /* Pure White */
     
     /* Modern */
     --modern-primary: hsl(210, 14%, 29%);  /* Deep Slate Blue */
@@ -39,8 +39,8 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    color: var(--text);
-    border-color: var(--secondary);
+    color: var(--pastel-text);
+    border-color: var(--pastel-secondary);
 }
 
 button, input, textarea, select, a {
@@ -48,9 +48,9 @@ button, input, textarea, select, a {
 }
 
 button:focus, input:focus, textarea:focus, select:focus, a:focus {
-    outline: 2px solid var(--accent);
+    outline: 2px solid var(--pastel-accent);
 }
 
 body {
-    background-color: var(--background);
+    background-color: var(--pastel-background);
 }
