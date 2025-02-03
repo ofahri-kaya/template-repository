@@ -3,8 +3,8 @@
     "prebuild": "eslint --fix",
     "build": "webpack --config webpack.prod.js",
     "dev": "eslint --fix && webpack serve --config webpack.dev.js",
-    "predeploy": "eslint --fix",
-    "deploy": "git push subtree --prefix dist origin gh-pages"
+    "predeploy": "npm run build",
+    "deploy": "git add . && git commit && git push && git checkout gh-pages && git merge main --no-edit && git add dist -f && git commit -m \"Deployment commit\" && git subtree push --prefix dist origin gh-pages && git checkout main"
   },
   "devDependencies": {
     "@babel/core": "^7.26.7",
