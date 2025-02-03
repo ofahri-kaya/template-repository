@@ -1,56 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
-    /* White and Blue */
-    --wb-primary: hsl(210, 15%, 25%);  /* Deep Navy Blue */
-    --wb-secondary: hsl(204, 30%, 58%);  /* Medium Sky Blue */
-    --wb-accent: hsl(200, 50%, 60%);  /* Soft Steel Blue */
-    --wb-text: hsl(0, 0%, 20%);  /* Charcoal Black */
-    --wb-background: hsl(0, 0%, 100%);  /* Pure White */
-    
-    /* Modern */
-    --modern-primary: hsl(210, 14%, 29%);  /* Deep Slate Blue */
-    --modern-secondary: hsl(204, 14%, 55%);  /* Soft Cool Blue */
-    --modern-accent: hsl(162, 20%, 45%);  /* Muted Teal */
-    --modern-text: hsl(210, 5%, 20%);  /* Charcoal Gray */
-    --modern-background: hsl(0, 0%, 97%);  /* Light Silver Gray */
+  /* White and Blue */
+  --wb-primary: hsl(210, 15%, 25%); /* Deep Navy Blue */
+  --wb-secondary: hsl(204, 30%, 58%); /* Medium Sky Blue */
+  --wb-accent: hsl(200, 50%, 60%); /* Soft Steel Blue */
+  --wb-text: hsl(0, 0%, 20%); /* Charcoal Black */
+  --wb-background: hsl(0, 0%, 100%); /* Pure White */
 
-    /* Playful */
-    --playful-primary: hsl(38, 100%, 60%);  /* Warm Yellow-Orange */
-    --playful-secondary: hsl(28, 80%, 70%);  /* Soft Apricot */
-    --playful-accent: hsl(50, 85%, 62%);  /* Lemon Yellow */
-    --playful-text: hsl(34, 11%, 15%);  /* Deep Warm Brown */
-    --playful-background: hsl(0, 0%, 98%);  /* Light Cream */
+  /* Modern */
+  --modern-primary: hsl(210, 14%, 29%); /* Deep Slate Blue */
+  --modern-secondary: hsl(204, 14%, 55%); /* Soft Cool Blue */
+  --modern-accent: hsl(162, 20%, 45%); /* Muted Teal */
+  --modern-text: hsl(210, 5%, 20%); /* Charcoal Gray */
+  --modern-background: hsl(0, 0%, 97%); /* Light Silver Gray */
 
-    /* Pastel */
-    --pastel-primary: hsl(41, 88%, 75%);  /* Soft Butter Yellow */
-    --pastel-secondary: hsl(42, 50%, 90%);  /* Pale Peach */
-    --pastel-accent: hsl(54, 77%, 65%);  /* Soft Olive Green */
-    --pastel-text: hsl(40, 25%, 28%);  /* Earthy Brown */
-    --pastel-background: hsl(60, 60%, 96%);  /* Light Lemon Chiffon */
+  /* Playful */
+  --playful-primary: hsl(38, 100%, 60%); /* Warm Yellow-Orange */
+  --playful-secondary: hsl(28, 80%, 70%); /* Soft Apricot */
+  --playful-accent: hsl(50, 85%, 62%); /* Lemon Yellow */
+  --playful-text: hsl(34, 11%, 15%); /* Deep Warm Brown */
+  --playful-background: hsl(0, 0%, 98%); /* Light Cream */
+
+  /* Pastel */
+  --pastel-primary: hsl(41, 88%, 75%); /* Soft Butter Yellow */
+  --pastel-secondary: hsl(42, 50%, 90%); /* Pale Peach */
+  --pastel-accent: hsl(54, 77%, 65%); /* Soft Olive Green */
+  --pastel-text: hsl(40, 25%, 28%); /* Earthy Brown */
+  --pastel-background: hsl(60, 60%, 96%); /* Light Lemon Chiffon */
 }
 
 :root {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    color: var(--pastel-text);
-    border-color: var(--pastel-secondary);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: var(--pastel-text);
+  border-color: var(--pastel-secondary);
 }
 
-button, input, textarea, select, a {
-    outline: none;
+button,
+input,
+textarea,
+select,
+a {
+  outline: none;
 }
 
-button:focus, input:focus, textarea:focus, select:focus, a:focus {
-    outline: 2px solid var(--pastel-accent);
+button:focus,
+input:focus,
+textarea:focus,
+select:focus,
+a:focus {
+  outline: 2px solid var(--pastel-accent);
 }
 
 body {
-    background-color: var(--pastel-background);
+  background-color: var(--pastel-background);
 }
